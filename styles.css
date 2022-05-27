@@ -1,0 +1,65 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+    font-family: "Open Sans", sans-serif!important;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    width: 100%;
+    background: url("images/photo1.jpg");
+    background-position:50% 15%;
+    background-size:cover;
+}
+
+.logo
+{
+    width: 314px!important;
+    height: 88px!important;
+    filter:brightness(100);
+    background: url("images/logo-1.svg");
+    background-position:center center;
+    background-size:cover;
+
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo{
+        width: 200px!important;
+        height: 40px!important;    
+    }
+
+    #h4-for-lg{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #h4-for-sm{
+        display: none;
+    }
+}
+
+.menu-text
+{
+    color: white!important;
+    font-weight:600!important;
+    font-size: 12px!important;
+    letter-spacing: 1px;
+}
+
+.login-form{
+    max-width: 300px; 
+    margin-top: 100px;
+}
+
+.navbar-brand{
+    margin-right: 0!important;
+}
